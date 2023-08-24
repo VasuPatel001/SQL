@@ -78,7 +78,7 @@ select distinct
 from 
 	public.customer
 where
-	region in ('East', 'North'); 
+	region in ('East', 'North');
 	
 select
 	sales
@@ -273,4 +273,3 @@ select
 		else 'Middle Age'
 		end as Age_Customer -- CASE statement ends with END keyword, then an alias is assigned using AS.
 from public.customer;
-
